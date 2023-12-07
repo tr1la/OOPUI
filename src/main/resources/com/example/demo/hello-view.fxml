@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
 
-<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.demo.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+<AnchorPane prefHeight="480.0" prefWidth="320.0">
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+  <StackPane layoutY="20.0">
+
+
+  <Label text="Amber Griffin" layoutX="50.0" layoutY="5.0" />
+
+  </StackPane>
+
+  <TextField layoutY="60.0" prefHeight="40.0" prefWidth="320.0" promptText="Type a message..."/>
+
+  <Button text="Send" layoutY="110.0" prefHeight="40.0" prefWidth="320.0" />
+
+</AnchorPane>
