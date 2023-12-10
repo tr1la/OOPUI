@@ -8,3 +8,47 @@
     -fx-background-radius: 35;
     -fx-border-radius: 35;
 }
+.send-button{
+    -fx-background-color: transparent;
+}
+.send-button:pressed{
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+.search-box{
+    -fx-background-color:   #fff;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-color: #d6d8d9;
+    -fx-effect: dropshadow(gaussian, #cccccc, 2, 0, 0, 0.8) ;
+}
+.search-field{
+    -fx-background-color: transparent;
+    -fx-text-fill: #b0d2b4;
+    -fx-font-family: "Poppins";
+    -fx-font-weight: bold;
+    -fx-font-size: 13;
+    -fx-border: none ;
+}
+.search-field:pressed > .search-box{
+    -fx-background-color: white;
+}
+.bubble-left{
+    -fx-background-color: #dcdcdc;
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-font-size: 14;
+    -fx-text-fill: #000000;
+}
+.bubble-right{
+    -fx-background-color: #52b69a;
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-font-size: 14;
+    -fx-text-fill: #f5f7f8;
+}
+.emoji{
+    -fx-background-color: #f5f7f8;
+    -fx-background-radius: 40;
+    -fx-border-radius: 40;
+}
